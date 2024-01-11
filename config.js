@@ -5,43 +5,43 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Snaky Bot",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=1191767048401997864&permissions=8&scope=bot",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Easy to use",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Easy to setup and play with it!.",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
-      name: "99% Uptime",
+      name: "Snaky is ready forever!",
       description:
-        "Uptime is a measure of system reliability, expressed as the percentage of time a machine, typically a computer.",
+        "Snaky is hosted forever.It only goes offline when we are updating new cool stuffs!",
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "We accept!",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
+        "We accept all your idea and any bug reports!",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Fun and Crazy!",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "Our snake game can handle multiple round!",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  serverCount: 3, //-  - Your
+  memberCount: 20, //--   - Bot
+  executedCommand: 100, //--  - Stats
+  availableCommand: 6, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
+  githubLink: "https://github.com/sunshinghin",
   twitterLink: "https://twitter.com",
   mediumLink: "https://medium.com/",
   facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  discordLink: "https://discord.com/invite/GPRwYfYH6Y",
+  youtubeLink: "https://m.youtube.com/channel/UCgjlFRQ6hUSWcZNyP2TRR-w",
 };
 
 export default config;
